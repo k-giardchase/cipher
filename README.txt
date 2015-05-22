@@ -1,3 +1,65 @@
+Developers
+----------------
+Kyle Giard-Chase
+
+Date
+-----------
+May 22 2015
+
+Description
+------------
+A website for created with Drupal which features a custom module that encrypts user input using a shift cipher.
+
+Technologies Used
+-----------------
+ * Drupal
+ * MAMP
+ * PHP
+
+Use and Editing
+-----------------
+To view the site,
+1. Open your command line and clone the repository using the command `https://github.com/k-giardchase/cipher`<br>
+2. Change directory into the top level of the project folder. `cd cipher`
+3. Go into MAMP preferences and set the document root to the Drupal Core directory `cipher`.
+4. Start your MAMP servers.
+5. Import the database using the instructions in the database section.
+6. Open your browser and navigate to your root path: `localhost:8888`
+7. NOTE: to login as an admin use the username `admin` and the password `admin`.
+
+DATABASE
+-----------------
+1. Open your browser and navigate to `localhost:8888/MAMP`
+2. Select `phpMyAdmin` under `Tools`.
+3. Click the `Import` tab.
+4. Leave all default settings, but do take care to make sure the character set is `utf-8`.
+5. Click `Choose File` button and select cipher.sql.gz found in `cipher/sites/db-backups/`.
+6. Click `Go` button on the bottom left.
+7. Recreate the database username and password.
+8. Select `Privileges` tab and click `Add User`. Set the username to `epicodus` and the password to `epicodus`.
+9. Open your browser once more and clear your cookies.
+10. Navigate to your root path: `localhost:8888`.
+
+
+##Copyright (c) 2015 Kyle Giard-Chase
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
 
 CONTENTS OF THIS FILE
 ---------------------
