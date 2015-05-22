@@ -25,7 +25,7 @@ To view the site,
 4. Start your MAMP servers.
 5. Import the database using the instructions in the database section.
 6. Open your browser and navigate to your root path: `localhost:8888`
-7. NOTE: to login as an admin use the username `admin` and the password `admin`.
+7. NOTE: to login as an admin use the username `epicodus` and the password `epicodus`.
 
 DATABASE
 -----------------
