@@ -33,7 +33,7 @@ DATABASE
 2. Select `phpMyAdmin` under `Tools`.
 3. Click the `Import` tab.
 4. Leave all default settings, but do take care to make sure the character set is `utf-8`.
-5. Click `Choose File` button and select cipher.sql.gz found in `cipher/sites/db-backups/`.
+5. Click `Choose File` button and select kyle_cipher.sql.gz found in `cipher/sites/db-backups/`.
 6. Click `Go` button on the bottom left.
 7. Recreate the database username and password.
 8. Select `Privileges` tab and click `Add User`. Set the username to `epicodus` and the password to `epicodus`.
