@@ -1,3 +1,6 @@
+[submodule "sites/all/modules/sites/all/modules/cipher"]
+	path = sites/all/modules/sites/all/modules/cipher
+	url = https://github.com/k-giardchase/cipher_module
 [submodule "sites/all/modules/cipher"]
 	path = sites/all/modules/cipher
 	url = https://github.com/k-giardchase/cipher_module
